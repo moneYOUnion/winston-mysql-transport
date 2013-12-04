@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS `my_database`.`log_table` (
 	`message` text NOT NULL,
 	`timestamp` datetime NOT NULL,
 	`meta` varchar(255),
+  `meta_stack` varchar(5000),
 	`hostname` varchar(255),
 	PRIMARY KEY (`id`)
 );
@@ -56,7 +57,7 @@ This transport does not support (yet) :
 
 * **streaming**
 * **querying**
-* **Saving of metadata**
+* **Saving of metadata (implement stack saving only)** 
 
 [0]: https://github.com/flatiron/winston
 [1]: https://github.com/felixge/node-mysql#connection-options

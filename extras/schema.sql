@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS `logs` (
 	`message` text NOT NULL,
 	`timestamp` datetime NOT NULL,
 	`meta` varchar(255),
+	`meta_stack` varchar(5000),
 	`hostname` varchar(255),
 	PRIMARY KEY (`id`)
 );
