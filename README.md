@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `my_database`.`log_table` (
 	`message` text NOT NULL,
 	`timestamp` datetime NOT NULL,
 	`meta` varchar(255),
-  `meta_stack` varchar(5000),
+  `meta_stack` text NOT NULL,
 	`hostname` varchar(255),
 	PRIMARY KEY (`id`)
 );
