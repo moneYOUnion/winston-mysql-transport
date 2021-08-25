@@ -1,3 +1,6 @@
+## Warning: this project as been deprecated
+
+
 A Mysql transport for [winston][0].
 
 ## Installation
