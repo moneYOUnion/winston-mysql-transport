@@ -22,7 +22,7 @@
     "url": "https://github.com/sapher/winston-mysql-transport/issues"
   },
   "devDependencies": {
-    "mysql": "~2.0.0-alpha9",
+    "mysql": "~2.18.1",
     "vows": "~0.7.0",
     "winston": "~0.7.2"
   }
